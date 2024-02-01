@@ -1,0 +1,66 @@
+body{
+    background-image:url("https://th.bing.com/th/id/OIP.wOhtfy6wkRVOdo7z4ADA1QHaE8?w=1920&h=1280&rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+h1{
+    text-shadow: 2px 2px whitesmoke;
+    color:crimson;
+    background-color: whitesmoke; 
+    padding:20px;
+    margin-left: 500px;
+    margin-top: 0%;
+   width: 400px;
+  border-style:outset;
+  box-shadow:0 0 13px;
+  border-radius: 25%;
+
+}
+.navbar{
+ background-color: whitesmoke;
+ padding:20px;
+ border-style: outset;
+ border-color:lightcoral;
+ width:50%;
+ height:5%;
+ margin-left: 30%;
+}
+ .navbar  a{
+    list-style-type: none;
+    color:black;
+    font-size: 20px;  
+    padding:50px;
+     text-decoration: none;
+     margin-left: 20px;
+  
+}
+.navbar a :hover{
+    color:crimson;
+}
+.container{
+ background-color:whitesmoke;
+ /* box-shadow: 10px 10px 5px lightblue; */
+ border-radius: 20%;
+ margin-top: 20px;
+ width:60%;
+ height:60%;
+ margin-left: 320px;
+}
+.speaker{
+    display: flex;
+    justify-content: space-between;
+    width: 13rem;
+    box-shadow: 0 0 13px #0000003d;
+    border-radius: 5px;
+}
+.action{
+    color: grey;
+    font-weight: 800; 
+    padding: 0; 
+    padding-left: 2rem;
+}
+.button{
+    border: transparent;
+    padding: 0 0.5rem;
+}

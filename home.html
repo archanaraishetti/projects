@@ -1,0 +1,38 @@
+<html>
+    <head>
+       <title>Speech to text</title>
+       <link rel="stylesheet" href="./style.css">
+    </head>
+       <body>
+         <h1><img style="width:40px;height:40px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2T8129eMlx4-efn-Bx306-ghpynVSbbnIg&usqp=CAU">SPEECH TO TEXT</h1>
+         <div class="navbar">
+         <nav>
+            <a href="./home.html">Home</a>
+            <a href="./description.html">Description</a>
+            <a href="./details.html">Details</a>
+         </nav>
+         </div>
+        <div  class="container" id="home">
+         <center><img style="width:50%;height:50%;margin-top:70px;" src="./images (1).jpeg">
+         </center>
+         <p style="font-family:cursive;color:crimson;margin-left: 19px;">The objective of Speech To Text (STT) is to convert audio input from a user or computer into readable text.</p>
+         <center><button style="margin-top: 0px;color:black;background-color: cornflowerblue;">GET STARTED</button></center>
+
+          </div>
+         <!-- <div class="speaker">
+             <p id="action"></p>
+             <button onclick="runSpeechRecog()">
+                Speech
+             </button>
+          </div>
+          <h3 id="output" class="hide"></h3> -->
+          <!-- <script src="./index.js">
+          </script> -->
+          <script>
+          let btn=document.getElementsByTagName("button");
+          btn[0].addEventListener("click",()=>{
+            window.location.assign("des.html")
+          })
+         </script>
+       </body>
+    </html>
