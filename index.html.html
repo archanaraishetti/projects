@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table,tr,td,th{
+            border:2px solid black ;
+            border-collapse: collapse;
+        }
+        tr:hover{
+         background-color: chocolate;
+        }
+        th:hover{
+         background-color: blueviolet;
+        }
+        h2:hover{
+         background-color: whitesmoke;
+        }
+       
+    </style>
+    <center>
+     <img src="">
+   </center>
+</body>
+<script>
+    document.body.style.backgroundColor="skyblue";
+    
+     let get=document.getElementsByTagName("img");
+     get[0].setAttribute("src","chitti.jpg");
+      get[0].style="width:100px;height:100px;";
+      console.log(get);
+
+
+    let h1_creation=document.createElement("h1");
+    h1_creation.innerHTML="<center><marquee>ARCHANA RAISHETTI</marquee><center>";
+        h1_creation.style.color="crimson";
+   document.body.appendChild(h1_creation);
+   
+
+   let h3_creation=document.createElement("h3");
+   h3_creation.innerHTML="<i><center>Email:archanaraishetti@gmail.com</center></i>";
+   document.body.appendChild(h3_creation);
+
+
+   let h_creation=document.createElement("h3");
+   h_creation.innerHTML="<i><center>Mobile:6300816775</center></i>";
+   document.body.appendChild(h_creation);
+
+   let hr_creation=document.createElement("hr");
+   hr_creation.innerHTML="";
+   document.body.appendChild(hr_creation);
+
+   let career=document.createElement("h2");
+    career.innerHTML="<u>CAREER OBJECTIVE:</u>";
+        career.style.color="purple";
+   document.body.appendChild(career);
+
+
+   let p=document.createElement("p");
+  p.innerHTML="Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings.";
+   document.body.appendChild(p);
+   
+   
+
+   let skills=document.createElement("h2");
+   skills.innerHTML="<u>TECHNICAL SKILLS:</u>";
+      skills.style.color="purple";
+   document.body.appendChild(skills);
+
+   
+
+   let skills1=document.createElement("h4");
+   skills1.innerHTML="PROGRAMMING LANGUAGES:<span style=color:black>Html,Css,Javascript,Bootstrap,SQL,Github,React Js,React native,Node js</span>";
+   skills1.style.color="deeppink";
+   document.body.appendChild(skills1);
+
+
+   let skills2=document.createElement("h4");
+   skills2.innerHTML="TOOLS AND TECHNOLOGIES:<span style=color:black>MS powerpoint and MS word</span>";
+   skills2.style.color="deeppink";
+   document.body.appendChild(skills2);
+
+   let skills3=document.createElement("h4");
+   skills3.innerHTML="OTHER SKILLS:<span style=color:black>Communication skills</span>";
+   skills3.style.color="deeppink";
+   document.body.appendChild(skills3);
+
+
+   let qualification=document.createElement("h2");
+   qualification.innerHTML="<u>EDUCATIONAL QUALIFICATION</u>:";
+   qualification.style.color="purple";
+   document.body.appendChild(qualification);
+
+   let table=document.createElement("table");
+    document.body.append(table);
+
+
+    let tr1=document.createElement("tr");
+    let th1=document.createElement("th");
+    th1.innerHTML="NAME OF THE INSTITUTE";
+    tr1.appendChild(th1);
+    table.appendChild(tr1);
+
+
+
+  
+    let th2=document.createElement("th");
+    th2.innerHTML="STREAM";
+    tr1.appendChild(th2);
+    table.appendChild(tr1);
+
+
+  
+    let th3=document.createElement("th");
+    th3.innerHTML="YEAR OF PASSING";
+    tr1.appendChild(th3);
+    table.appendChild(tr1);
+
+    let th4=document.createElement("th");
+    th4.innerHTML="PERCENTAGE";
+    tr1.appendChild(th4);
+    table.appendChild(tr1);
+
+
+
+
+
+
+
+    let tr2=document.createElement("tr");
+    let td1=document.createElement("td");
+    td1.innerHTML="Trinity college of engineering and technology (BTECH)";
+    tr2.appendChild(td1);
+    table.appendChild(tr2);
+
+    
+    let td2=document.createElement("td");
+    td2.innerHTML="CSE";
+    tr2.appendChild(td2);
+    table.appendChild(tr2);
+    
+    let td3=document.createElement("td");
+    td3.innerHTML="2023";
+    tr2.appendChild(td3);
+    table.appendChild(tr2);
+
+
+
+    let td4=document.createElement("td");
+    td4.innerHTML="71%";
+    tr2.appendChild(td4);
+    table.appendChild(tr2);
+
+
+   let tr3=document.createElement("tr");
+   let td11=document.createElement("td");
+   td11.innerHTML="Sri chaitanya junior college (INTERMEDIATE)";
+    tr3.appendChild(td11);
+    table.appendChild(tr3);
+
+
+    let td22=document.createElement("td");
+    td22.innerHTML="MPC";
+    tr3.appendChild(td22);
+    table.appendChild(tr3);
+
+
+    let td33=document.createElement("td");
+    td33.innerHTML="2019";
+    tr3.appendChild(td33);
+    table.appendChild(tr3);
+
+
+    let td44=document.createElement("td");
+    td44.innerHTML="91%";
+    tr3.appendChild(td44);
+    table.appendChild(tr3);
+
+
+
+    let tr4=document.createElement("tr");
+   let td111=document.createElement("td");
+   td111.innerHTML="Pragathi vidyanikethan high school (SSC)";
+    tr4.appendChild(td111);
+    table.appendChild(tr4);
+
+
+    let td222=document.createElement("td");
+    td222.innerHTML="SSC";
+    tr4.appendChild(td222);
+    table.appendChild(tr4);
+
+
+    let td333=document.createElement("td");
+    td333.innerHTML="2017";
+    tr4.appendChild(td333);
+    table.appendChild(tr4);
+
+
+    let td444=document.createElement("td");
+    td444.innerHTML="75%";
+    tr4.appendChild(td444);
+    table.appendChild(tr4);
+
+
+
+   let pro=document.createElement("h2");
+  pro.innerHTML="<u>PROJECTS:</u>";
+    pro.style.color="purple";
+   document.body.appendChild(pro);
+
+   let pro1=document.createElement("h4");
+  pro1.innerHTML="PROJECT NAME:<span style=color:black>An Efficient spam detection for IOT Devices Using Machine Learning</span>";
+    pro1.style.color="purple";
+   document.body.appendChild(pro1);
+
+   let pro3=document.createElement("h4");
+  pro3.innerHTML="PROJECT DESCRIPTION:<span style=color:black>In this project,we are detecting spam containing in IOT devices using Machine learning</span>";
+    pro3.style.color="deeppink";
+   document.body.appendChild(pro3);
+
+   let pro2=document.createElement("h4");
+  pro2.innerHTML="PROJECT NAME:<span style=color:black>Privacy preserving medical record searching scheme for Intelligent diagnosisin IOT healthcare</span>";
+    pro2.style.color="purple";
+   document.body.appendChild(pro2);
+
+   let pro4=document.createElement("h4");
+  pro4.innerHTML="PROJECT DESCRIPTION:<span style=color:black>In this project,Privacy and security provided to the patient healthcaredata in both current and pastcase database</span>";
+    pro4.style.color="deeppink";
+   document.body.appendChild(pro4);
+
+
+
+   let doc=document.createElement("h2");
+   doc.innerHTML="<u>HOBBIES:</u>";
+      doc.style.color="purple";
+   document.body.appendChild(doc);
+
+   let doc1=document.createElement("li");
+   doc1.innerHTML="Scrolling internet";
+      doc1.style.color="crimson";
+   document.body.appendChild(doc1);
+
+   let doc2=document.createElement("li");
+   doc2.innerHTML="Learning new technologies";
+      doc2.style.color="crimson";
+   document.body.appendChild(doc2);
+
+
+   let doc3=document.createElement("h2");
+   doc3.innerHTML="<u>STRENGTHS:</u>";
+      doc3.style.color="purple";
+   document.body.appendChild(doc3);
+
+
+   let doc4=document.createElement("li");
+   doc4.innerHTML="Patience";
+      doc4.style.color="crimson";
+   document.body.appendChild(doc4);
+
+   let doc5=document.createElement("li");
+   doc5.innerHTML="Time management:";
+      doc5.style.color="crimson";
+   document.body.appendChild(doc5);
+
+
+   let doc6=document.createElement("h2");
+   doc6.innerHTML="<u>DEClARATION:</u>";
+      doc6.style.color="purple";
+   document.body.appendChild(doc6);
+
+
+
+   let doc7=document.createElement("p");
+   doc7.innerHTML="I hereby declare that the details furnished above are true and correct";
+      doc7.style.color="black";
+   document.body.appendChild(doc7);
+
+  let c=["sign.jpg"];
+  for(i=0;i<c.length;i++){
+   let b=document.createElement("img");
+    b.setAttribute("src",c[i]);
+    b.setAttribute("width",100);
+    b.setAttribute("height",80);
+    b.style="margin-left:1100px";
+    document.body.appendChild(b);
+  }
+
+   
+</script>
+
+</html>
